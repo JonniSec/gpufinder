@@ -57,7 +57,7 @@ class MyClient(discord.Client):
             channel = self.get_channel(761812096496304132) # channel ID
 
             for i in nowavailable:
-                await channel.send (i) # print available gpus to discord text channel
+                await channel.send (i) # print available gpus to discord
                 time.sleep(1)
 
             await asyncio.sleep(300) # task runs every 5 minutes
