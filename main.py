@@ -53,7 +53,7 @@ class MyClient(discord.Client):
         nowavailable = gpufunction() # stores available gpus into empty list
         #print(nowavailable)
 
-        if nowavailable != self.previousavailable: # if there is a change in available gpus
+        if nowavailable != self.previousavailable: # if there is a change in available gpus in newegg
             channel = self.get_channel(761812096496304132) # channel ID
 
             for i in nowavailable:
