@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from contextlib import redirect_stdout
 import time
 
-def gpufunction():
+def gpufunction(): # function to see if gpus are available and stores into a list
 
     page = requests.get("https://www.newegg.com/p/pl?N=100007709%20601341679%208000%20600007308%20600007306%20601296707%20601331379%20601357282%20601359511&PageSize=96") # grab gpu page
 
