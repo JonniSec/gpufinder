@@ -61,7 +61,7 @@ class MyClient(discord.Client):
                 await channel.send (i)
                 time.sleep(1)
 
-            await asyncio.sleep(45) # task runs every 5 minutes
+            await asyncio.sleep(300) # task runs every 5 minutes
         # while not self.is_closed():
             self.previousavailable = nowavailable
 
